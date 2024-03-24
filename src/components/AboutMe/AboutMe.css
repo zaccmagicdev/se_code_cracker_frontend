@@ -1,0 +1,22 @@
+.aboutme{
+    width: 100%;
+    height: auto;
+    background-color: rgb(218, 226, 229);
+    box-shadow: 10px 10px rgb(132, 147, 208);
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.aboutme__author-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(191, 198, 209);
+    float: left;
+    margin-right: 10px;
+}
+
+.aboutme__author-about{
+    text-align: justify;
+}
