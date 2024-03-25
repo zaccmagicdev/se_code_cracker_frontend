@@ -1,0 +1,4 @@
+- The color pallete of colored pegs can be an array of buttons, with a callback that gets it's color
+- the peg slots could be submit events that fill that peg with the selected color
+-
+-users aren't required to make an account, but their scores won't be saved
