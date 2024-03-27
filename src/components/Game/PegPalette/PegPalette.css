@@ -1,0 +1,21 @@
+.pegpallete{
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.pegpallete__slot{
+    border: 1px solid grey;
+    border-radius: 50%;
+    background: transparent url(../../../vendor/circle-solid.svg) center no-repeat;
+    height: 40px;
+    width: 40px;
+}
+
+.pegpallete__slot-submit{
+    margin-left: 25px;
+}

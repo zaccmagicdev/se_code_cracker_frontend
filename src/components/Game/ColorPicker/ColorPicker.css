@@ -1,0 +1,61 @@
+.colorpicker{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+
+.colorpicker__red{
+    background: transparent url(../../../vendor/circle-solid_red.svg) center no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid darkred;
+}
+
+.colorpicker__orange{
+    background: transparent url(../../../vendor/circle-solid_orange.svg) center no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid brown;
+}
+
+.colorpicker__yellow{
+    background: transparent url(../../../vendor/circle-solid_\ yellow.svg) center no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid goldenrod;
+}
+
+.colorpicker__green{
+    background: transparent url(../../../vendor/circle-solid_green.svg) center no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+}
+
+.colorpicker__cyan{
+    background: transparent url(../../../vendor/circle-solid_cyan.svg) center no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid darkcyan;
+}
+
+.colorpicker__blue{
+    background: transparent url(../../../vendor/circle-solid_blue.svg) center no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid navy;
+}
+
+.colorpicker__purple{
+    background: transparent url(../../../vendor/circle-solid_purple.svg) center no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid darkmagenta;
+}

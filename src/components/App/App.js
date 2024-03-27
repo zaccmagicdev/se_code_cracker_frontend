@@ -5,39 +5,41 @@ import AboutMe from "../AboutMe/AboutMe";
 import React, { useState } from 'react';
 import SignInModal from '../SignInModal/SignInModal';
 import RegistrationModal from '../RegistrationModal/RegistrationModal';
+import Main from '../Main/Main';
 
 function App() {
 
   const [activeModal, setActiveModal] = useState("");
 
-  function handleOpenSignInModal(){
+  function handleOpenSignInModal() {
     setActiveModal("signin")
   }
 
-  function handleOpenRegistrationModal(){
+  function handleOpenRegistrationModal() {
     setActiveModal("signup")
   }
 
-  function handleCloseModal(){
+  function handleCloseModal() {
     setActiveModal("")
   }
 
-  function handleLogin(email, password){
+  function handleLogin(email, password) {
     console.log(email, password);
   }
 
-  function handleRegistration(email, password, username, avatar){
+  function handleRegistration(email, password, username, avatar) {
     console.log(email, password, username, avatar);
   }
 
   return (
     <div className="App">
-      <Header handleOpenSignUpModal={handleOpenSignInModal}/>
+      <Header handleOpenSignUpModal={handleOpenSignInModal} />
       <Routes>
-        <Route path="/aboutme" element={<AboutMe />}/>
+        <Route path='/' element={<Main />} />
+        <Route path="/aboutme" element={<AboutMe />} />
       </Routes>
-      {activeModal === "signin" && (<SignInModal handleCloseModal={handleCloseModal} submitMethod={handleLogin} handleOpenRegistrationModal={handleOpenRegistrationModal}/>)}
-      {activeModal === "signup" && (<RegistrationModal handleCloseModal={handleCloseModal} handleOpenSignInModal={handleOpenSignInModal} submitMethod={handleRegistration}/>)}
+      {activeModal === "signin" && (<SignInModal handleCloseModal={handleCloseModal} submitMethod={handleLogin} handleOpenRegistrationModal={handleOpenRegistrationModal} />)}
+      {activeModal === "signup" && (<RegistrationModal handleCloseModal={handleCloseModal} handleOpenSignInModal={handleOpenSignInModal} submitMethod={handleRegistration} />)}
     </div>
   );
 }
