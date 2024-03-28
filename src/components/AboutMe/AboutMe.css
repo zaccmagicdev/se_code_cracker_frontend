@@ -5,18 +5,31 @@
     box-shadow: 10px 10px rgb(132, 147, 208);
     border-radius: 5px;
     padding: 10px 10px;
-    margin-top: 20px;
 }
 
 .aboutme__author-picture{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px;
     box-shadow: 5px 5px rgb(191, 198, 209);
     float: left;
     margin-right: 10px;
 }
 
+.aboutme__author-header{
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.03, rgb(250,3,3)),
+        color-stop(0.52, rgb(240,255,127)),
+        color-stop(0.76, rgb(42,24,173))
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .aboutme__author-about{
     text-align: justify;
+    font-size: 15px;
 }

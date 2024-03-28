@@ -1,0 +1,50 @@
+.colorpicker{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+
+.colorpicker__button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.colorpicker__button_red{
+    background: transparent url(../../../vendor/circle-solid_red.svg) center no-repeat;
+    border: 1px solid darkred;
+}
+
+.colorpicker__button_orange{
+    background: transparent url(../../../vendor/circle-solid_orange.svg) center no-repeat;
+    border: 1px solid brown;
+}
+
+.colorpicker__button_yellow{
+    background: transparent url(../../../vendor/circle-solid_\ yellow.svg) center no-repeat;
+    border: 1px solid goldenrod;
+}
+
+.colorpicker__button_green{
+    background: transparent url(../../../vendor/circle-solid_green.svg) center no-repeat;
+    border: 1px solid green;
+}
+
+.colorpicker__button_cyan{
+    background: transparent url(../../../vendor/circle-solid_cyan.svg) center no-repeat;
+    border: 1px solid darkcyan;
+}
+
+.colorpicker__button_blue{
+    background: transparent url(../../../vendor/circle-solid_blue.svg) center no-repeat;
+    border: 1px solid navy;
+}
+
+.colorpicker__button_purple{
+    background: transparent url(../../../vendor/circle-solid_purple.svg) center no-repeat;
+    border: 1px solid darkmagenta;
+}
+
+.colorpicker__button:hover{
+    opacity: 40%;
+}

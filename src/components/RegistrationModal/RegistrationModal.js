@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ModalWithForm from "../ModalWithForm/ModalWithForm";
+import './RegistrationModal.css'
 
 function RegistrationModal(props) {
 
@@ -26,7 +27,7 @@ function RegistrationModal(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.submitMethod(inputValEmail, inputValPassword);
+    props.submitMethod(inputValEmail, inputValPassword, inputValUsername, inputValAvatar);
   }
 
   return (
@@ -35,11 +36,12 @@ function RegistrationModal(props) {
       modalTitle="Welcome aboard!"
       submitButtonName="Sign me up!"
       onModalClose={props.handleCloseModal}
-      submitMethod={props.handleSubmit}
+      submitMethod={handleSubmit}
     >
+      <p className="signupmodal__text">We simply need your:</p>
       <label>
         <input
-          className="signinmodal__input"
+          className="signupmodal__input"
           placeholder="Email*"
           type="email"
           required
@@ -48,7 +50,7 @@ function RegistrationModal(props) {
       </label>
       <label>
         <input
-          className="signinmodal__input"
+          className="signupmodal__input"
           placeholder="Password*"
           type="password"
           required
@@ -57,7 +59,7 @@ function RegistrationModal(props) {
       </label>
       <label>
         <input
-          className="signinmodal__input"
+          className="signupmodal__input"
           placeholder="Username*"
           type="string"
           required
@@ -66,13 +68,16 @@ function RegistrationModal(props) {
       </label>
       <label>
         <input
-          className="signinmodal__input"
+          className="signupmodal__input"
           placeholder="Avatar*"
           type="url"
           required
           onChange={handleAvatarChange}
         />
       </label>
+      <button className="signupmodal__signin-button" type='button' onClick={props.handleOpenSignInModal}>
+        Already Signed Up? Then Sign in!
+      </button>
     </ModalWithForm>
   );
 }
