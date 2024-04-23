@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/se_code_cracker_frontend/static/css/main.186b997f.css",
+    "main.js": "/se_code_cracker_frontend/static/js/main.0dbc96f5.js",
+    "static/js/453.76e749b5.chunk.js": "/se_code_cracker_frontend/static/js/453.76e749b5.chunk.js",
+    "static/media/author_picture.jpg": "/se_code_cracker_frontend/static/media/author_picture.b674ba977dda5e8f04cc.jpg",
+    "static/media/header_logo.png": "/se_code_cracker_frontend/static/media/header_logo.285e4b2c9b214fd8691d.png",
+    "static/media/CabinetGrotesk-Medium.woff": "/se_code_cracker_frontend/static/media/CabinetGrotesk-Medium.ed9c4b9af2fe3a8dd14d.woff",
+    "index.html": "/se_code_cracker_frontend/index.html",
+    "main.186b997f.css.map": "/se_code_cracker_frontend/static/css/main.186b997f.css.map",
+    "main.0dbc96f5.js.map": "/se_code_cracker_frontend/static/js/main.0dbc96f5.js.map",
+    "453.76e749b5.chunk.js.map": "/se_code_cracker_frontend/static/js/453.76e749b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.186b997f.css",
+    "static/js/main.0dbc96f5.js"
+  ]
+}
