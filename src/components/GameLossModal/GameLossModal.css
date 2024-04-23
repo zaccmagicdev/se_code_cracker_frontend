@@ -1,0 +1,7 @@
+.gamelostmodal__container{
+    align-items: center;
+ }
+ 
+ .gamelostmodal__answer{
+     display: flex;
+ }

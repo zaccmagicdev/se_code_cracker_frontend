@@ -1,0 +1,51 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color:rgba(0,0,0,0.5);
+}
+
+.modal__container{
+    background-color: rgb(218, 226, 229);;
+    box-sizing: border-box;
+    margin: 195px auto;
+    max-width: 496px;
+    height: auto;
+    border-radius: 10px;
+    color: black;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__title{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.modal__form{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.modal__submit-button{
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(191, 198, 209);
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.modal__submit-button:hover{
+    background-color: rgb(176, 196, 227);
+}

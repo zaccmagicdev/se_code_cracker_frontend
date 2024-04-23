@@ -1,0 +1,44 @@
+.circle {
+    border-radius: 50%;
+    border: 1px solid grey;
+    cursor: pointer;
+  }
+  
+  .circle_grey {
+    background-color: rgba(216, 222, 230, 0.692);
+  }
+  .circle_black {
+    background-color: black;
+  }
+  .circle_white {
+    background-color: white;
+  }
+  .circle_red {
+    background-color: red;
+  }
+  .circle_orange {
+    background-color: orange;
+  }
+  .circle_yellow {
+    background-color: yellow;
+  }
+  .circle_green {
+    background-color: rgb(0, 255, 1);
+  }
+  .circle_cyan {
+    background-color: cyan;
+  }
+  .circle_blue {
+    background-color: blue;
+  }
+  .circle_purple {
+    background-color: purple;
+  }
+  .circle_pink {
+    background-color: hotpink;
+  }
+  
+  .circle_active {
+    opacity: 30%;
+  }
+  

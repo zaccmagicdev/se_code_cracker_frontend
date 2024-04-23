@@ -1,0 +1,10 @@
+body {
+ background-color: rgb(156, 175, 248);
+ padding: 10px 20px;
+}
+
+button{
+    cursor: pointer;
+    color: black;
+    font-family: "Cabinet Grotesk", Arial, sans-serif;
+}

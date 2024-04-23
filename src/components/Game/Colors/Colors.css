@@ -1,0 +1,15 @@
+.colors{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 5px;
+    border-top: 1px solid grey;
+    justify-content: center;
+}
+
+@media (max-width: 486px){
+    .colors{
+        gap: 2px;
+        padding: 5px;
+    }
+}
