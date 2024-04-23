@@ -1,0 +1,53 @@
+.pegpallete{
+    max-width: 400px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+}
+
+.pegpallete__container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.pegpallete__slots{
+    display: flex;
+    gap: 5px;
+}
+
+.pegpallete__results{
+    display: flex;
+    align-items: center;
+}
+
+.pegpallete__slot-submit{
+    height: calc(100% / 2);
+    margin: auto 0 auto 0;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.pegpallete__container_active{
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+@media (max-width: 486px){
+    .pegpallete__container{
+        flex-direction: column;
+    }
+
+    .pegpallete__container_active{
+        border-radius: 5px;
+    }
+}
+
+.pegpallete__slot-submit:hover{
+    background-color: rgb(176, 196, 227);
+}

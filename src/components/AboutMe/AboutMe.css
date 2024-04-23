@@ -1,0 +1,52 @@
+.aboutme{
+    width: 100%;
+    height: auto;
+    background-color: rgb(218, 226, 229);
+    box-shadow: 10px 10px rgb(132, 147, 208);
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.aboutme__author-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(191, 198, 209);
+    float: left;
+    margin-right: 10px;
+    display: block;
+}
+
+.aboutme__author-header{
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.03, rgb(250,3,3)),
+        color-stop(0.52, rgb(240,255,127)),
+        color-stop(0.76, rgb(42,24,173))
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutme__author-about{
+    text-align: justify;
+    font-size: 15px;
+}
+
+@media (max-width: 376px){
+    .aboutme__author-picture{
+        margin: 0 auto 0 auto;
+        float: none;
+    }
+
+    .aboutme__author-header{
+        text-align: center;
+    }
+
+    .aboutme__author-about{
+        font-size: 12px;
+    }
+}

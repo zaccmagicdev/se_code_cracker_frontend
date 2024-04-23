@@ -1,0 +1,9 @@
+.game__game-container{
+    background-color: rgb(218, 226, 229);
+    box-shadow: 10px 10px rgb(132, 147, 208);
+    border-radius: 5px;
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+}
