@@ -11,9 +11,6 @@ const COLORS = [
   const MAX_ATTEMPTS = 8;
   const PEG_SLOTS = 5;
   
-  //filtering out less thatn desirable jokes from the API
-  const JOKE_URL = `https://v2.jokeapi.dev/joke/Pun?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single`;
-  
   const generateNonDuplicateArray = (arr) => {
     let nums = [];
     let copy = [...arr];
@@ -37,5 +34,5 @@ const COLORS = [
     playerScore: 0,
   });
   
-  export { COLORS, MAX_ATTEMPTS, PEG_SLOTS, JOKE_URL, startingState };
+  export { COLORS, MAX_ATTEMPTS, PEG_SLOTS, startingState };
   
