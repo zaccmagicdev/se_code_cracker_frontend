@@ -4,8 +4,8 @@ Code Cracker! A simple logic puzzle game similar to the Israeli puzzle game "Mas
 
 - Responsive Design - Looks great on all devices
 - Scores the user based on how good their guesses are for solving the code 
-- Uses an API for an easter egg in the app...
 - Features a rule page for playing the game
+- Will soon come with a backend to save scores
 - Uses reacts useReducer for game functionality
 
 I really hope you have as much fun playing this as I did making it!
